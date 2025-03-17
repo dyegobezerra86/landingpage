@@ -1,5 +1,6 @@
 header{
-    background-color: rgb(5, 5, 87);
+    background-color: #005f4b;
+    height: 100px;
 }
 h1{
     background-color: aquamarine;
@@ -8,17 +9,28 @@ h1{
     font-size: 50px;
 }
 h2{
-    background-color: aqua;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 97px;
+text-align: center;
+margin-right: 100px;
 }
 button{
     margin: 5px;
     border-radius: 10px;
     background-color: rgb(255, 255, 255);
-    color: rgb(0, 10, 99);
+    color: #043604;
     height: 30px;
 }
 .header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+div{
+    display: flex;
     align-items: center;
 }
